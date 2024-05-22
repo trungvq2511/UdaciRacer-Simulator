@@ -1,0 +1,25 @@
+form ul {
+    display: flex;
+    padding: 20px;
+}
+
+form h4 {
+    border-radius: 6px;
+    -webkit-box-shadow: 5px 7px 5px 0px rgba(237,230,237,1);
+    -moz-box-shadow: 5px 7px 5px 0px rgba(237,230,237,1);
+    box-shadow: 5px 7px 5px 0px rgba(237,230,237,1);
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #fbf5f5;
+    cursor: pointer;
+    transition: all .6s;
+}
+
+form h4:hover {
+    box-shadow: none;
+    border: 1px solid rgb(109, 233, 23);
+}
+
+form h4.selected {
+    border: 1px solid rgb(109, 233, 23);
+}

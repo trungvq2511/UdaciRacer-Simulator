@@ -1,5 +1,21 @@
 /* RESULTS PAGE SPECIFIC STYLES */
 
+.result {
+    margin: 20px auto;
+}
+
+.result a {
+    background-color: #007bff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.result table {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
 /* -------------------  MOBILE  --------------------- */
 
 
